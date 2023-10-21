@@ -22,8 +22,8 @@ public class ScoreScript : MonoBehaviour
         {
             ScoreNum += 10;
             Destroy(coin.gameObject);
-            MyscoreText.text = "Score" + ScoreNum;
-            CollectCoin();
+            MyscoreText.text = "Score" + ScoreNum; // score will add
+            CollectCoin(); // Activate level over Screen
             
         }
     }

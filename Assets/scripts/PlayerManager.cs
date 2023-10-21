@@ -41,22 +41,26 @@ public class PlayerManager : MonoBehaviour
     public void ReplayLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        // This will activate replay button command
     }
 
     public void PauseGame()
     {
         Time.timeScale = 0;
         pauseMenuScreen.SetActive(true);
+        // This will Activate when pause button is clicked
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
         pauseMenuScreen.SetActive(false);
+        // This will Activate when resume button is clicked
     }
 
     public void NextLevel()
     {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // this will Activate when you complete a desired score
     }
 }

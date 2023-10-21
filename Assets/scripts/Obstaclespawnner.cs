@@ -5,9 +5,9 @@ using UnityEngine;
 public class Obstaclespawnner : MonoBehaviour
 {
     public GameObject obstaclePrefab;
-    public float spawnInterval = 2.0f;
+    public float spawnInterval = 2.0f; // Difference between two spawn object
 
-    private float nextSpawnTime = 0f;
+    private float nextSpawnTime = 0f; // Time Difference between spawn 
 
     void Update()
     {
