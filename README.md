@@ -32,18 +32,6 @@ Welcome to the Space Shooter game! This is an exciting space-themed shooting gam
 - Press on the screen to shoot and change the asteroid into coin .
 - Collect the coin to achieve the desired goal and to move to additional levels.
 
-## Contributing
-
-If you want to contribute to this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-
-
 ## Acknowledgments
 
 - Special thanks to open source for the awesome spaceship graphics.
